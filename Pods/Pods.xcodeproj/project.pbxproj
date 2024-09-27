@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		D53454FBB630479B01CA0A777383E94F /* FBAudienceNetwork */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E5780C84CB0F990CFF8F6B6775FF2900 /* Build configuration list for PBXAggregateTarget "FBAudienceNetwork" */;
+			buildPhases = (
+				46F46FC8DBEF9E66B904DA7436FB749A /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = FBAudienceNetwork;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		264DD5BB722F156F5139D3F41ED423F5 /* Pods-FBAdsTestbed-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A7AC9D38814DE7B8E65C4209121697 /* Pods-FBAdsTestbed-dummy.m */; };
+		9F129D00B53096D095E4512ADC7875C1 /* Pods-FBAdsTestbed-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C642F3BE00E0D868EEE875BFF16A5460 /* Pods-FBAdsTestbed-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6893CC1F6FA9A40C0069128247B402B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A6B2943D6445AA5E3B6F69A342655EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D53454FBB630479B01CA0A777383E94F;
+			remoteInfo = FBAudienceNetwork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01E37610E39903ED7E4457690AF2297E /* Pods-FBAdsTestbed-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FBAdsTestbed-acknowledgements.plist"; sourceTree = "<group>"; };
+		04B0F07F416BF2C4E8ECFFA5315C1D61 /* FBMediaViewVideoRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBMediaViewVideoRenderer.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64/FBAudienceNetwork.framework/Headers/FBMediaViewVideoRenderer.h"; sourceTree = "<group>"; };
+		04B399419808EE97DC9F6BB5F271FFCA /* FBAdViewBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdViewBridge.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64/FBAudienceNetwork.framework/Headers/FBAdViewBridge.h"; sourceTree = "<group>"; };
+		05845D1176AC1DDD65845BB89273FAE5 /* FBDynamicBannerAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBDynamicBannerAd.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64/FBAudienceNetwork.framework/Headers/FBDynamicBannerAd.h"; sourceTree = "<group>"; };
+		073E2FA930201EC9E3B7F7EC92E54518 /* FBNativeAdBaseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdBaseView.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64/FBAudienceNetwork.framework/Headers/FBNativeAdBaseView.h"; sourceTree = "<group>"; };
+		096F7495D028F3BE0D1191FC5275D2C8 /* FBNativeAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAd.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBNativeAd.h"; sourceTree = "<group>"; };
+		0A2BC2FF8C8DDAE968E4A8D0F8993033 /* FBAdExperienceConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdExperienceConfig.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBAdExperienceConfig.h"; sourceTree = "<group>"; };
+		0EF3F942BC27338631E0BA00E246DE07 /* FBInterstitialAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBInterstitialAd.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBInterstitialAd.h"; sourceTree = "<group>"; };
+		1644B3D41BDA1572E1BCAAA98730639F /* FBAdOptionsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdOptionsView.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64/FBAudienceNetwork.framework/Headers/FBAdOptionsView.h"; sourceTree = "<group>"; };
+		18E8778BFAA17FE909AC36402769E425 /* FBAudienceNetwork-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "FBAudienceNetwork-xcframeworks.sh"; sourceTree = "<group>"; };
+		1969949CD06342631B5CFCC088966BEE /* FBNativeAdScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdScrollView.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBNativeAdScrollView.h"; sourceTree = "<group>"; };
+		1CCF49FFCF5036E5170C3D7EF2E4118F /* FBMediaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBMediaView.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64/FBAudienceNetwork.framework/Headers/FBMediaView.h"; sourceTree = "<group>"; };
+		1D5B3BF81C11B1C4B00C08CAEFE89608 /* FBAudienceNetwork.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = FBAudienceNetwork.xcframework; path = Static/FBAudienceNetwork.xcframework; sourceTree = "<group>"; };
+		20D6FDB65E4866585ACFC87BB908AAB3 /* FBNativeAdBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdBase.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBNativeAdBase.h"; sourceTree = "<group>"; };
+		23166730C505DE1420A6CCA8AD4225C5 /* UIView+FBNativeAdViewTag.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FBNativeAdViewTag.h"; path = "Static/FBAudienceNetwork.xcframework/ios-arm64/FBAudienceNetwork.framework/Headers/UIView+FBNativeAdViewTag.h"; sourceTree = "<group>"; };
+		23B33BBD7FEB9CD5A48D9D4454B0FE31 /* FBAdCompanionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdCompanionView.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64/FBAudienceNetwork.framework/Headers/FBAdCompanionView.h"; sourceTree = "<group>"; };
+		2431090FC0EBF6940221C49487AFE037 /* FBNativeAdTableViewAdProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdTableViewAdProvider.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBNativeAdTableViewAdProvider.h"; sourceTree = "<group>"; };
+		24FD28886AE3E88A31D2BDAEBDBF10CC /* FBNativeAdCollectionViewAdProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdCollectionViewAdProvider.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64/FBAudienceNetwork.framework/Headers/FBNativeAdCollectionViewAdProvider.h"; sourceTree = "<group>"; };
+		25A01AD47F1643B7E4E192CCFFEB809C /* FBAdUtilityBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdUtilityBridge.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBAdUtilityBridge.h"; sourceTree = "<group>"; };
+		266C990E7453632D4257F52AEEC7BBEF /* FBAdCompanionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdCompanionView.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBAdCompanionView.h"; sourceTree = "<group>"; };
+		2B83EE0B3DB06FAC3F1669169F5DFDAF /* FBAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdView.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64/FBAudienceNetwork.framework/Headers/FBAdView.h"; sourceTree = "<group>"; };
+		2FBDBDAE11660BD3FCD8B02F81C2788A /* FBAdSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdSettings.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBAdSettings.h"; sourceTree = "<group>"; };
+		338280191EA7EA3523172FB2101507B9 /* FBAdSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdSettings.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64/FBAudienceNetwork.framework/Headers/FBAdSettings.h"; sourceTree = "<group>"; };
+		356BBB436457CB421CE7F0AD18FCFFE0 /* FBNativeAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdView.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64/FBAudienceNetwork.framework/Headers/FBNativeAdView.h"; sourceTree = "<group>"; };
+		3629A4097B5C47C40FB583853C848A07 /* FBAdSettingsBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdSettingsBridge.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64/FBAudienceNetwork.framework/Headers/FBAdSettingsBridge.h"; sourceTree = "<group>"; };
+		372365C1F22CFFB8AA4D80CD481A5428 /* Pods-FBAdsTestbed.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FBAdsTestbed.modulemap"; sourceTree = "<group>"; };
+		43AD81BA45AE577DD0F2DF595CBA8A11 /* FBNativeAdViewAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdViewAttributes.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBNativeAdViewAttributes.h"; sourceTree = "<group>"; };
+		448F8FE095D0BC5EC18290376B02AC1D /* Pods-FBAdsTestbed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FBAdsTestbed.release.xcconfig"; sourceTree = "<group>"; };
+		4A6AE8AB3CC961EC590D96A218A60828 /* FBNativeAdTableViewCellProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdTableViewCellProvider.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBNativeAdTableViewCellProvider.h"; sourceTree = "<group>"; };
+		4DF877505F0EE4C9A6CA16AC1112B7F7 /* FBAdSDKNotificationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdSDKNotificationManager.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBAdSDKNotificationManager.h"; sourceTree = "<group>"; };
+		4E900C7583CDA5A5D3F2B4726540711C /* FBAdChoicesView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdChoicesView.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64/FBAudienceNetwork.framework/Headers/FBAdChoicesView.h"; sourceTree = "<group>"; };
+		4FDDABE75C2C0E48ADC6C57131166F1A /* FBAdImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdImage.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64/FBAudienceNetwork.framework/Headers/FBAdImage.h"; sourceTree = "<group>"; };
+		50A7AC9D38814DE7B8E65C4209121697 /* Pods-FBAdsTestbed-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FBAdsTestbed-dummy.m"; sourceTree = "<group>"; };
+		54985CE32351073AB2CFEB73881C08B3 /* FBNativeAdCollectionViewCellProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdCollectionViewCellProvider.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64/FBAudienceNetwork.framework/Headers/FBNativeAdCollectionViewCellProvider.h"; sourceTree = "<group>"; };
+		566DF7EC69F0892AEC12049480AFF177 /* FBNativeBannerAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeBannerAdView.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64/FBAudienceNetwork.framework/Headers/FBNativeBannerAdView.h"; sourceTree = "<group>"; };
+		5EC1BEC307FEFF2C67B1112437551509 /* FBAdSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdSize.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64/FBAudienceNetwork.framework/Headers/FBAdSize.h"; sourceTree = "<group>"; };
+		664D03EA56A06ADAA50F933CEA42C756 /* FBNativeBannerAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeBannerAd.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64/FBAudienceNetwork.framework/Headers/FBNativeBannerAd.h"; sourceTree = "<group>"; };
+		66543FC80115B3EC307D611D549CD468 /* FBInterstitialAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBInterstitialAd.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64/FBAudienceNetwork.framework/Headers/FBInterstitialAd.h"; sourceTree = "<group>"; };
+		66F9DF674D63BFA44389F78D9D223A9E /* FBInterstitialAdBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBInterstitialAdBridge.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBInterstitialAdBridge.h"; sourceTree = "<group>"; };
+		6839DD9B455823A34E58EB41C26D91F0 /* Pods-FBAdsTestbed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FBAdsTestbed.debug.xcconfig"; sourceTree = "<group>"; };
+		6E742B674D9D588A253A9903F46A7C9C /* FBAdIconView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdIconView.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64/FBAudienceNetwork.framework/Headers/FBAdIconView.h"; sourceTree = "<group>"; };
+		6FA2ABD76498E9E985311554821664AB /* FBNativeAdBaseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdBaseView.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBNativeAdBaseView.h"; sourceTree = "<group>"; };
+		7056378736E80EF6B418583A204E73DD /* FBRewardedInterstitialAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBRewardedInterstitialAd.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBRewardedInterstitialAd.h"; sourceTree = "<group>"; };
+		709949A7A9BB4D95967A3C3CC29FA8A1 /* FBDynamicBannerAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBDynamicBannerAd.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBDynamicBannerAd.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7492B0EB0EFEB396E36461730D8F4003 /* FBNativeBannerAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeBannerAdView.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBNativeBannerAdView.h"; sourceTree = "<group>"; };
+		74CD31D5A9131B24FE7BDD2CA856F2C1 /* FBNativeAdsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdsManager.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBNativeAdsManager.h"; sourceTree = "<group>"; };
+		76F273AE1E10FE3F5276C300DE5EBD35 /* FBAudienceNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBAudienceNetwork.release.xcconfig; sourceTree = "<group>"; };
+		7B412D8B9EA44E8F8A3ECD3E44C9772F /* FBNativeAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdView.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBNativeAdView.h"; sourceTree = "<group>"; };
+		7CC48B9BDD895EFA76B9901B3831F5FF /* FBNativeAdTableViewCellProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdTableViewCellProvider.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64/FBAudienceNetwork.framework/Headers/FBNativeAdTableViewCellProvider.h"; sourceTree = "<group>"; };
+		7E3F5311006119BEF5EB81253D93AE79 /* FBAdUtilityBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdUtilityBridge.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64/FBAudienceNetwork.framework/Headers/FBAdUtilityBridge.h"; sourceTree = "<group>"; };
+		7FEF20D935116BC8EBC5B95DC3F7A331 /* FBAdImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdImage.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBAdImage.h"; sourceTree = "<group>"; };
+		84A49777283E49418412EE97E89F7067 /* FBAdExtraHint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdExtraHint.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBAdExtraHint.h"; sourceTree = "<group>"; };
+		85147DE0B339B19B076D7D5D680D4DA0 /* FBNativeAdViewAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdViewAttributes.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64/FBAudienceNetwork.framework/Headers/FBNativeAdViewAttributes.h"; sourceTree = "<group>"; };
+		8ABDC31B19944FF517D36ED1C3B4EE82 /* FBNativeAdCollectionViewAdProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdCollectionViewAdProvider.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBNativeAdCollectionViewAdProvider.h"; sourceTree = "<group>"; };
+		8DB81E68C4B5A76F51903BC17FC05E8A /* UIView+FBNativeAdViewTag.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FBNativeAdViewTag.h"; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/UIView+FBNativeAdViewTag.h"; sourceTree = "<group>"; };
+		9862F3DF4CBA84054AEFC5D3FD032B88 /* FBAdDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdDefines.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBAdDefines.h"; sourceTree = "<group>"; };
+		990B1AFDE2841618E49593151F20AD4A /* FBAdExperienceConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdExperienceConfig.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64/FBAudienceNetwork.framework/Headers/FBAdExperienceConfig.h"; sourceTree = "<group>"; };
+		99D9B9C970FC6E1DEEF2BD16F76BB68E /* FBAdChoicesView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdChoicesView.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBAdChoicesView.h"; sourceTree = "<group>"; };
+		9BEA5282A50A2498A5FFA851740CA9C9 /* FBNativeAdsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdsManager.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64/FBAudienceNetwork.framework/Headers/FBNativeAdsManager.h"; sourceTree = "<group>"; };
+		9D501BF7404B57776A5EABEE2EFA3D16 /* Pods-FBAdsTestbed-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FBAdsTestbed-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0DD2149A77A17A3016231286FA5B8C6 /* Pods-FBAdsTestbed */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FBAdsTestbed"; path = Pods_FBAdsTestbed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10DA3546D4E047F3B51B6B38E2AD102 /* FBAudienceNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBAudienceNetwork.debug.xcconfig; sourceTree = "<group>"; };
+		A44ADFE7A79FE5379C798C58DDE1440E /* FBAudienceNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAudienceNetwork.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64/FBAudienceNetwork.framework/Headers/FBAudienceNetwork.h"; sourceTree = "<group>"; };
+		A4A474DFD38F628092E5746501C11382 /* FBAdOptionsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdOptionsView.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBAdOptionsView.h"; sourceTree = "<group>"; };
+		A8220E7160338F5274B4279A58CCF430 /* Pods-FBAdsTestbed-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FBAdsTestbed-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A91077034BBF62C81F9BE63509DE5A6B /* FBAdBridgeCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdBridgeCommon.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBAdBridgeCommon.h"; sourceTree = "<group>"; };
+		AB8621760AEDEF9263956E1971D28172 /* FBNativeAdScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdScrollView.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64/FBAudienceNetwork.framework/Headers/FBNativeAdScrollView.h"; sourceTree = "<group>"; };
+		ADEC6BA8E78EC6E0BD5F9F91C6C7CE74 /* FBRewardedVideoAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBRewardedVideoAd.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBRewardedVideoAd.h"; sourceTree = "<group>"; };
+		B01EB9299AA3FA37AE48B8DC5EBFC175 /* FBAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdView.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBAdView.h"; sourceTree = "<group>"; };
+		B14709DF7324F085F9BCCB97B195343A /* FBAdBridgeCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdBridgeCommon.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64/FBAudienceNetwork.framework/Headers/FBAdBridgeCommon.h"; sourceTree = "<group>"; };
+		B3A785622A9F3B9F03B2B67F7906A565 /* FBNativeAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAd.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64/FBAudienceNetwork.framework/Headers/FBNativeAd.h"; sourceTree = "<group>"; };
+		B3EC47B7B17C07C07BC660ACF6985624 /* FBNativeAdBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdBase.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64/FBAudienceNetwork.framework/Headers/FBNativeAdBase.h"; sourceTree = "<group>"; };
+		BA747B9656524676A0280B378BABB12A /* FBAdDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdDefines.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64/FBAudienceNetwork.framework/Headers/FBAdDefines.h"; sourceTree = "<group>"; };
+		BB56D3AB58C6B194D0E67A6C1E80F84A /* FBNativeBannerAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeBannerAd.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBNativeBannerAd.h"; sourceTree = "<group>"; };
+		BBC51F5120599551BF5462B490ED40DB /* FBAudienceNetworkAds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAudienceNetworkAds.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBAudienceNetworkAds.h"; sourceTree = "<group>"; };
+		BC2DB78D63185C3B655830FC5F66C24A /* FBRewardedVideoAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBRewardedVideoAd.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64/FBAudienceNetwork.framework/Headers/FBRewardedVideoAd.h"; sourceTree = "<group>"; };
+		BE456ED7C829B703E66189E72E6B1421 /* FBAdSDKNotificationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdSDKNotificationManager.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64/FBAudienceNetwork.framework/Headers/FBAdSDKNotificationManager.h"; sourceTree = "<group>"; };
+		C05CFC5F1A4900F95B2B6A62781ABB38 /* FBAdIconView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdIconView.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBAdIconView.h"; sourceTree = "<group>"; };
+		C642F3BE00E0D868EEE875BFF16A5460 /* Pods-FBAdsTestbed-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FBAdsTestbed-umbrella.h"; sourceTree = "<group>"; };
+		C6FD184760B3FAC04023D2035733F5A3 /* FBAdSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdSize.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBAdSize.h"; sourceTree = "<group>"; };
+		CA6C49158D829D90CB3C86A14AB2DA76 /* FBAdExtraHint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdExtraHint.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64/FBAudienceNetwork.framework/Headers/FBAdExtraHint.h"; sourceTree = "<group>"; };
+		CF0A85B7D2EAF79236F6B7C9EC790A24 /* FBNativeAdCollectionViewCellProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdCollectionViewCellProvider.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBNativeAdCollectionViewCellProvider.h"; sourceTree = "<group>"; };
+		D02C859ADFE888A08AE859A21F23B2A9 /* FBNativeAdTableViewAdProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdTableViewAdProvider.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64/FBAudienceNetwork.framework/Headers/FBNativeAdTableViewAdProvider.h"; sourceTree = "<group>"; };
+		D9297FA6706BB038C7192329EFB8D46C /* FBMediaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBMediaView.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBMediaView.h"; sourceTree = "<group>"; };
+		DA417E26C3BA53A5669045F09815997C /* FBRewardedVideoAdBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBRewardedVideoAdBridge.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBRewardedVideoAdBridge.h"; sourceTree = "<group>"; };
+		DBEB7FDA60F04FC349F5300771D0FE92 /* FBMediaViewVideoRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBMediaViewVideoRenderer.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBMediaViewVideoRenderer.h"; sourceTree = "<group>"; };
+		DF35EC91731C25625CDF0D2CC846961C /* FBInterstitialAdBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBInterstitialAdBridge.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64/FBAudienceNetwork.framework/Headers/FBInterstitialAdBridge.h"; sourceTree = "<group>"; };
+		DF618A071872063A6B4FBE8D544B1189 /* FBAudienceNetworkAds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAudienceNetworkAds.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64/FBAudienceNetwork.framework/Headers/FBAudienceNetworkAds.h"; sourceTree = "<group>"; };
+		E0E901064E4E76404CD4DD4E904BD22D /* FBAdSettingsBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdSettingsBridge.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBAdSettingsBridge.h"; sourceTree = "<group>"; };
+		E500A10A58070B0C35A73D85B5E49123 /* FBAdViewBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdViewBridge.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBAdViewBridge.h"; sourceTree = "<group>"; };
+		E558499438093A1892AA40904B42EDCD /* FBAdBridgeContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdBridgeContainer.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64/FBAudienceNetwork.framework/Headers/FBAdBridgeContainer.h"; sourceTree = "<group>"; };
+		E6096AD58B9B4A1BBEB79C9D1F75E55F /* FBRewardedInterstitialAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBRewardedInterstitialAd.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64/FBAudienceNetwork.framework/Headers/FBRewardedInterstitialAd.h"; sourceTree = "<group>"; };
+		E7DED8DC07C3E22DB01FC9857D69F55D /* FBAdBridgeContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdBridgeContainer.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBAdBridgeContainer.h"; sourceTree = "<group>"; };
+		EDB27E3369753C024F855096F5A01C64 /* FBAudienceNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAudienceNetwork.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBAudienceNetwork.h"; sourceTree = "<group>"; };
+		EE0E81367BC3932BD4ED3B3EBFCE9204 /* FBRewardedVideoAdBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBRewardedVideoAdBridge.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64/FBAudienceNetwork.framework/Headers/FBRewardedVideoAdBridge.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66EB178B1393F289901266AF9CBFE5CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6893CC1F6FA9A40C0069128247B402B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B0A654604ADDF951A3DD3DF47B3531E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0DD2149A77A17A3016231286FA5B8C6 /* Pods-FBAdsTestbed */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5B1E05DCB34AA35C1FD64D564FC0FBA9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3C528305FA197599E3B69D47777F484 /* FBAudienceNetwork */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5E19DE509FC99F51310341EB91406F5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D5B3BF81C11B1C4B00C08CAEFE89608 /* FBAudienceNetwork.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6FE9276A7038EE2924721417ADB74A1D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				18E8778BFAA17FE909AC36402769E425 /* FBAudienceNetwork-xcframeworks.sh */,
+				A10DA3546D4E047F3B51B6B38E2AD102 /* FBAudienceNetwork.debug.xcconfig */,
+				76F273AE1E10FE3F5276C300DE5EBD35 /* FBAudienceNetwork.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBAudienceNetwork";
+			sourceTree = "<group>";
+		};
+		73AB848329650BC9EFB5AFE3764DC124 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D94C61949E8B88189965A83EF6F26165 /* Pods-FBAdsTestbed */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5B1E05DCB34AA35C1FD64D564FC0FBA9 /* Pods */,
+				3B0A654604ADDF951A3DD3DF47B3531E /* Products */,
+				73AB848329650BC9EFB5AFE3764DC124 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D94C61949E8B88189965A83EF6F26165 /* Pods-FBAdsTestbed */ = {
+			isa = PBXGroup;
+			children = (
+				372365C1F22CFFB8AA4D80CD481A5428 /* Pods-FBAdsTestbed.modulemap */,
+				A8220E7160338F5274B4279A58CCF430 /* Pods-FBAdsTestbed-acknowledgements.markdown */,
+				01E37610E39903ED7E4457690AF2297E /* Pods-FBAdsTestbed-acknowledgements.plist */,
+				50A7AC9D38814DE7B8E65C4209121697 /* Pods-FBAdsTestbed-dummy.m */,
+				9D501BF7404B57776A5EABEE2EFA3D16 /* Pods-FBAdsTestbed-Info.plist */,
+				C642F3BE00E0D868EEE875BFF16A5460 /* Pods-FBAdsTestbed-umbrella.h */,
+				6839DD9B455823A34E58EB41C26D91F0 /* Pods-FBAdsTestbed.debug.xcconfig */,
+				448F8FE095D0BC5EC18290376B02AC1D /* Pods-FBAdsTestbed.release.xcconfig */,
+			);
+			name = "Pods-FBAdsTestbed";
+			path = "Target Support Files/Pods-FBAdsTestbed";
+			sourceTree = "<group>";
+		};
+		F3C528305FA197599E3B69D47777F484 /* FBAudienceNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				B14709DF7324F085F9BCCB97B195343A /* FBAdBridgeCommon.h */,
+				A91077034BBF62C81F9BE63509DE5A6B /* FBAdBridgeCommon.h */,
+				E558499438093A1892AA40904B42EDCD /* FBAdBridgeContainer.h */,
+				E7DED8DC07C3E22DB01FC9857D69F55D /* FBAdBridgeContainer.h */,
+				4E900C7583CDA5A5D3F2B4726540711C /* FBAdChoicesView.h */,
+				99D9B9C970FC6E1DEEF2BD16F76BB68E /* FBAdChoicesView.h */,
+				23B33BBD7FEB9CD5A48D9D4454B0FE31 /* FBAdCompanionView.h */,
+				266C990E7453632D4257F52AEEC7BBEF /* FBAdCompanionView.h */,
+				BA747B9656524676A0280B378BABB12A /* FBAdDefines.h */,
+				9862F3DF4CBA84054AEFC5D3FD032B88 /* FBAdDefines.h */,
+				990B1AFDE2841618E49593151F20AD4A /* FBAdExperienceConfig.h */,
+				0A2BC2FF8C8DDAE968E4A8D0F8993033 /* FBAdExperienceConfig.h */,
+				CA6C49158D829D90CB3C86A14AB2DA76 /* FBAdExtraHint.h */,
+				84A49777283E49418412EE97E89F7067 /* FBAdExtraHint.h */,
+				6E742B674D9D588A253A9903F46A7C9C /* FBAdIconView.h */,
+				C05CFC5F1A4900F95B2B6A62781ABB38 /* FBAdIconView.h */,
+				4FDDABE75C2C0E48ADC6C57131166F1A /* FBAdImage.h */,
+				7FEF20D935116BC8EBC5B95DC3F7A331 /* FBAdImage.h */,
+				1644B3D41BDA1572E1BCAAA98730639F /* FBAdOptionsView.h */,
+				A4A474DFD38F628092E5746501C11382 /* FBAdOptionsView.h */,
+				BE456ED7C829B703E66189E72E6B1421 /* FBAdSDKNotificationManager.h */,
+				4DF877505F0EE4C9A6CA16AC1112B7F7 /* FBAdSDKNotificationManager.h */,
+				338280191EA7EA3523172FB2101507B9 /* FBAdSettings.h */,
+				2FBDBDAE11660BD3FCD8B02F81C2788A /* FBAdSettings.h */,
+				3629A4097B5C47C40FB583853C848A07 /* FBAdSettingsBridge.h */,
+				E0E901064E4E76404CD4DD4E904BD22D /* FBAdSettingsBridge.h */,
+				5EC1BEC307FEFF2C67B1112437551509 /* FBAdSize.h */,
+				C6FD184760B3FAC04023D2035733F5A3 /* FBAdSize.h */,
+				7E3F5311006119BEF5EB81253D93AE79 /* FBAdUtilityBridge.h */,
+				25A01AD47F1643B7E4E192CCFFEB809C /* FBAdUtilityBridge.h */,
+				2B83EE0B3DB06FAC3F1669169F5DFDAF /* FBAdView.h */,
+				B01EB9299AA3FA37AE48B8DC5EBFC175 /* FBAdView.h */,
+				04B399419808EE97DC9F6BB5F271FFCA /* FBAdViewBridge.h */,
+				E500A10A58070B0C35A73D85B5E49123 /* FBAdViewBridge.h */,
+				A44ADFE7A79FE5379C798C58DDE1440E /* FBAudienceNetwork.h */,
+				EDB27E3369753C024F855096F5A01C64 /* FBAudienceNetwork.h */,
+				DF618A071872063A6B4FBE8D544B1189 /* FBAudienceNetworkAds.h */,
+				BBC51F5120599551BF5462B490ED40DB /* FBAudienceNetworkAds.h */,
+				05845D1176AC1DDD65845BB89273FAE5 /* FBDynamicBannerAd.h */,
+				709949A7A9BB4D95967A3C3CC29FA8A1 /* FBDynamicBannerAd.h */,
+				66543FC80115B3EC307D611D549CD468 /* FBInterstitialAd.h */,
+				0EF3F942BC27338631E0BA00E246DE07 /* FBInterstitialAd.h */,
+				DF35EC91731C25625CDF0D2CC846961C /* FBInterstitialAdBridge.h */,
+				66F9DF674D63BFA44389F78D9D223A9E /* FBInterstitialAdBridge.h */,
+				1CCF49FFCF5036E5170C3D7EF2E4118F /* FBMediaView.h */,
+				D9297FA6706BB038C7192329EFB8D46C /* FBMediaView.h */,
+				04B0F07F416BF2C4E8ECFFA5315C1D61 /* FBMediaViewVideoRenderer.h */,
+				DBEB7FDA60F04FC349F5300771D0FE92 /* FBMediaViewVideoRenderer.h */,
+				B3A785622A9F3B9F03B2B67F7906A565 /* FBNativeAd.h */,
+				096F7495D028F3BE0D1191FC5275D2C8 /* FBNativeAd.h */,
+				B3EC47B7B17C07C07BC660ACF6985624 /* FBNativeAdBase.h */,
+				20D6FDB65E4866585ACFC87BB908AAB3 /* FBNativeAdBase.h */,
+				073E2FA930201EC9E3B7F7EC92E54518 /* FBNativeAdBaseView.h */,
+				6FA2ABD76498E9E985311554821664AB /* FBNativeAdBaseView.h */,
+				24FD28886AE3E88A31D2BDAEBDBF10CC /* FBNativeAdCollectionViewAdProvider.h */,
+				8ABDC31B19944FF517D36ED1C3B4EE82 /* FBNativeAdCollectionViewAdProvider.h */,
+				54985CE32351073AB2CFEB73881C08B3 /* FBNativeAdCollectionViewCellProvider.h */,
+				CF0A85B7D2EAF79236F6B7C9EC790A24 /* FBNativeAdCollectionViewCellProvider.h */,
+				AB8621760AEDEF9263956E1971D28172 /* FBNativeAdScrollView.h */,
+				1969949CD06342631B5CFCC088966BEE /* FBNativeAdScrollView.h */,
+				9BEA5282A50A2498A5FFA851740CA9C9 /* FBNativeAdsManager.h */,
+				74CD31D5A9131B24FE7BDD2CA856F2C1 /* FBNativeAdsManager.h */,
+				D02C859ADFE888A08AE859A21F23B2A9 /* FBNativeAdTableViewAdProvider.h */,
+				2431090FC0EBF6940221C49487AFE037 /* FBNativeAdTableViewAdProvider.h */,
+				7CC48B9BDD895EFA76B9901B3831F5FF /* FBNativeAdTableViewCellProvider.h */,
+				4A6AE8AB3CC961EC590D96A218A60828 /* FBNativeAdTableViewCellProvider.h */,
+				356BBB436457CB421CE7F0AD18FCFFE0 /* FBNativeAdView.h */,
+				7B412D8B9EA44E8F8A3ECD3E44C9772F /* FBNativeAdView.h */,
+				85147DE0B339B19B076D7D5D680D4DA0 /* FBNativeAdViewAttributes.h */,
+				43AD81BA45AE577DD0F2DF595CBA8A11 /* FBNativeAdViewAttributes.h */,
+				664D03EA56A06ADAA50F933CEA42C756 /* FBNativeBannerAd.h */,
+				BB56D3AB58C6B194D0E67A6C1E80F84A /* FBNativeBannerAd.h */,
+				566DF7EC69F0892AEC12049480AFF177 /* FBNativeBannerAdView.h */,
+				7492B0EB0EFEB396E36461730D8F4003 /* FBNativeBannerAdView.h */,
+				E6096AD58B9B4A1BBEB79C9D1F75E55F /* FBRewardedInterstitialAd.h */,
+				7056378736E80EF6B418583A204E73DD /* FBRewardedInterstitialAd.h */,
+				BC2DB78D63185C3B655830FC5F66C24A /* FBRewardedVideoAd.h */,
+				ADEC6BA8E78EC6E0BD5F9F91C6C7CE74 /* FBRewardedVideoAd.h */,
+				EE0E81367BC3932BD4ED3B3EBFCE9204 /* FBRewardedVideoAdBridge.h */,
+				DA417E26C3BA53A5669045F09815997C /* FBRewardedVideoAdBridge.h */,
+				23166730C505DE1420A6CCA8AD4225C5 /* UIView+FBNativeAdViewTag.h */,
+				8DB81E68C4B5A76F51903BC17FC05E8A /* UIView+FBNativeAdViewTag.h */,
+				5E19DE509FC99F51310341EB91406F5A /* Frameworks */,
+				6FE9276A7038EE2924721417ADB74A1D /* Support Files */,
+			);
+			name = FBAudienceNetwork;
+			path = FBAudienceNetwork;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EBA27DE3D81B0F86FE172F4DA6D532BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F129D00B53096D095E4512ADC7875C1 /* Pods-FBAdsTestbed-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		77932EF7B788DED1EE43C4B580C23D5B /* Pods-FBAdsTestbed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7947649B9F01E32CA8EBB27676D3697 /* Build configuration list for PBXNativeTarget "Pods-FBAdsTestbed" */;
+			buildPhases = (
+				EBA27DE3D81B0F86FE172F4DA6D532BB /* Headers */,
+				F7E16D92687735F3B5F7B2CEDA6D1D5D /* Sources */,
+				66EB178B1393F289901266AF9CBFE5CC /* Frameworks */,
+				7B649F1421C2C3C99AACBAC8EF48ECB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1101A6C4CD984791172B9B2C643425A1 /* PBXTargetDependency */,
+			);
+			name = "Pods-FBAdsTestbed";
+			productName = Pods_FBAdsTestbed;
+			productReference = A0DD2149A77A17A3016231286FA5B8C6 /* Pods-FBAdsTestbed */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3B0A654604ADDF951A3DD3DF47B3531E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D53454FBB630479B01CA0A777383E94F /* FBAudienceNetwork */,
+				77932EF7B788DED1EE43C4B580C23D5B /* Pods-FBAdsTestbed */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B649F1421C2C3C99AACBAC8EF48ECB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46F46FC8DBEF9E66B904DA7436FB749A /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/FBAudienceNetwork/FBAudienceNetwork-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/FBAudienceNetwork/FBAudienceNetwork-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/FBAudienceNetwork/FBAudienceNetwork-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7E16D92687735F3B5F7B2CEDA6D1D5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264DD5BB722F156F5139D3F41ED423F5 /* Pods-FBAdsTestbed-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1101A6C4CD984791172B9B2C643425A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBAudienceNetwork;
+			target = D53454FBB630479B01CA0A777383E94F /* FBAudienceNetwork */;
+			targetProxy = 2A6B2943D6445AA5E3B6F69A342655EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		148492DEF1B160C5EF9CC3908EFFC0B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76F273AE1E10FE3F5276C300DE5EBD35 /* FBAudienceNetwork.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20DE2E7ED717B46AE4E05CB78D3D000F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A10DA3546D4E047F3B51B6B38E2AD102 /* FBAudienceNetwork.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8554E9EBF54DB2D6129780F1EA42F69E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6839DD9B455823A34E58EB41C26D91F0 /* Pods-FBAdsTestbed.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FBAdsTestbed/Pods-FBAdsTestbed-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FBAdsTestbed/Pods-FBAdsTestbed.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EE66FDFF24D5F1347B0E12B1835D85F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 448F8FE095D0BC5EC18290376B02AC1D /* Pods-FBAdsTestbed.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FBAdsTestbed/Pods-FBAdsTestbed-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FBAdsTestbed/Pods-FBAdsTestbed.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */,
+				C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7947649B9F01E32CA8EBB27676D3697 /* Build configuration list for PBXNativeTarget "Pods-FBAdsTestbed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8554E9EBF54DB2D6129780F1EA42F69E /* Debug */,
+				EE66FDFF24D5F1347B0E12B1835D85F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5780C84CB0F990CFF8F6B6775FF2900 /* Build configuration list for PBXAggregateTarget "FBAudienceNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20DE2E7ED717B46AE4E05CB78D3D000F /* Debug */,
+				148492DEF1B160C5EF9CC3908EFFC0B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
